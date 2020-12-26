@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+* {
+    color: black;
+}
+
+body {
+    color: black;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#logo-name {
+    font-size: 12px;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    padding-top: 15px;;
+}
+
+#copyright {
+    font-size: 0.7em;
+}
