@@ -9,5 +9,9 @@ router.get('/treatments', treatmentsController.main)
 router.get('/dermapen', treatmentsController.dermapen)
 router.get('/peeling', treatmentsController.peeling)
 router.get('/oxygen-infusion', treatmentsController.oxygenInfusion)
+router.get('/fractional-rf', treatmentsController.fractionalRf)
+router.get('/plasma-and-plate-rich-fibrin', treatmentsController.plasmaAndPlateRichFibrin)
+router.get('/kobido', treatmentsController.kobido)
+router.get('/face-cleanning', treatmentsController.faceCleanning)
 
 module.exports = router
