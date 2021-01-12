@@ -22,10 +22,61 @@ body {
 
 footer {
     height: auto;
+    margin: 60px auto;
     width: 100%;
     padding-top: 15px;;
 }
 
 #copyright {
     font-size: 0.7em;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin: 45px auto;
+    text-align: center;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+}
+
+h1:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+h4 {
+    font-family: sans-serif;
+    margin: 18px auto;
+    text-align: center;
+    font-size: 18px;
+    max-width: 600px;
+    position: relative;
+}
+
+span {
+    background: #fff;
+}
+
+img {
+    border-radius: .6rem;
 }
