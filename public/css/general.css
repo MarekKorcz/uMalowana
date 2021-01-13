@@ -64,11 +64,11 @@ h1:after {
     z-index: -2;
 }
 
-h4 {
+.second-title {
     font-family: sans-serif;
     margin: 18px auto;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     max-width: 600px;
     position: relative;
 }

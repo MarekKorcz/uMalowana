@@ -15,5 +15,8 @@ router.get('/kobido', treatmentsController.kobido)
 router.get('/face-cleanning', treatmentsController.faceCleanning)
 router.get('/injection-lipolysis', treatmentsController.injectionLipolysis)
 router.get('/needle-mesotherapy', treatmentsController.needleMesotherapy)
+router.get('/diamond-microdermabrasion', treatmentsController.diamondMicrodermabrasion)
+router.get('/cavitation-peeling', treatmentsController.cavitationPeeling)
+router.get('/cleansing-with-acids', treatmentsController.cleansingWithAcids)
 
 module.exports = router

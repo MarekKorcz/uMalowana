@@ -33,3 +33,15 @@ exports.injectionLipolysis = (req, res) =>{
 exports.needleMesotherapy = (req, res) =>{
     res.render('treatments/needle-mesotherapy')
 }
+
+exports.diamondMicrodermabrasion = (req, res) =>{
+    res.render('treatments/diamond-microdermabrasion')
+}
+
+exports.cavitationPeeling = (req, res) =>{
+    res.render('treatments/cavitation-peeling')
+}
+
+exports.cleansingWithAcids = (req, res) =>{
+    res.render('treatments/cleansing-with-acids')
+}
