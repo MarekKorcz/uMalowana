@@ -29,3 +29,11 @@ exports.kobido = (req, res) =>{
 exports.faceCleanning = (req, res) =>{
     res.render('treatments/face-cleanning')
 }
+
+exports.injectionLipolysis = (req, res) =>{
+    res.render('treatments/injection-lipolysis')
+}
+
+exports.needleMesotherapy = (req, res) =>{
+    res.render('treatments/needle-mesotherapy')
+}

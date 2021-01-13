@@ -13,5 +13,7 @@ router.get('/fractional-rf', treatmentsController.fractionalRf)
 router.get('/plasma-and-plate-rich-fibrin', treatmentsController.plasmaAndPlateRichFibrin)
 router.get('/kobido', treatmentsController.kobido)
 router.get('/face-cleanning', treatmentsController.faceCleanning)
+router.get('/injection-lipolysis', treatmentsController.injectionLipolysis)
+router.get('/needle-mesotherapy', treatmentsController.needleMesotherapy)
 
 module.exports = router
