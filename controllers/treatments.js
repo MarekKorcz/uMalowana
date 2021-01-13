@@ -1,7 +1,3 @@
-exports.main = (req, res) =>{
-    res.render('treatments/main')
-}
-
 exports.dermapen = (req, res) =>{
     res.render('treatments/dermapen')
 }
