@@ -5,3 +5,7 @@ exports.home = (req, res) =>{
 exports.team = (req, res) => {
     res.render('team')
 }
+
+exports.contact = (req, res) => {
+    res.render('contact')
+}

@@ -87,3 +87,8 @@ img {
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
+
+#map {
+    border-radius: 12px;
+    box-shadow: 6px 6px 9px grey;
+}

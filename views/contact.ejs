@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/header-common.ejs') %>
+</head>
+<body>
+    <div style="max-width: 100%;">
+        <%- include('partials/header.ejs') %>
+
+        <div class="container">
+            <h1>Kontakt</h1>
+
+            <div class="text-center" style="padding-bottom: 2rem;">
+                <h5>
+                    Telefon: 
+                    <strong>
+                        694 401 783
+                    </strong>
+                </h5>
+                <h5>
+                    Salon znajduję się na 
+                    <strong>
+                        ul. Śniadeckich 12, 05-520 Chyliczki.
+                    </strong>
+                </h5>
+            </div>
+
+            <div id="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1118.8330463833997!2d21.072251975981736!3d52.08815464298851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192e80d91567dd%3A0x148ff7c87979828a!2s%C5%9Aniadeckich%2012%2C%2005-500%20Chyliczki!5e1!3m2!1spl!2spl!4v1611738845677!5m2!1spl!2spl" 
+                    width="100%" 
+                    height="450" 
+                    frameborder="0" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    aria-hidden="false" 
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+
+        <%- include('partials/footer.ejs') %>
+    </div>
+</body>
+</html>

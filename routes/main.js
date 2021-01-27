@@ -4,6 +4,7 @@ const router = express.Router()
 const homeController = require('../controllers/home')
 router.get('/', homeController.home)
 router.get('/team', homeController.team)
+router.get('/contact', homeController.contact)
 
 const treatmentsController = require('../controllers/treatments')
 router.get('/dermapen', treatmentsController.dermapen)
