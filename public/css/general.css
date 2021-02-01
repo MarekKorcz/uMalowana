@@ -105,6 +105,15 @@ img {
     background-color: white;
 }
 
+.dropdown-menu li a:hover {
+    color: #fdca02;
+    border: #a58815 1.8px solid;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #365043;
+}
+
 .row {
     margin: 0;
 }
