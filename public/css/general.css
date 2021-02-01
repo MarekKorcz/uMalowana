@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 * {
     color: black;
@@ -9,6 +10,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    font-family: 'Courgette', cursive;
 }
 
 #logo {
@@ -32,7 +34,7 @@ footer {
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: 'Courgette', cursive;
     margin: 45px auto;
     text-align: center;
     font-size: 40px;
@@ -96,9 +98,13 @@ img {
 .list-group a:hover {
     background-color: #365043;
     color: #fdca02;
-    border: #a58815 2px solid;
+    border: #a58815 1.8px solid;
 }
 
 .list-group a {
     background-color: white;
+}
+
+.row {
+    margin: 0;
 }
