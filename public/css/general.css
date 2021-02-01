@@ -92,3 +92,13 @@ img {
     border-radius: 12px;
     box-shadow: 6px 6px 9px grey;
 }
+
+.list-group a:hover {
+    background-color: #365043;
+    color: #fdca02;
+    border: #a58815 2px solid;
+}
+
+.list-group a {
+    background-color: white;
+}
