@@ -117,3 +117,16 @@ img {
 .row {
     margin: 0;
 }
+
+.center-positioning {
+    display: grid;
+    place-items: center;
+}
+
+.fa-facebook-f:hover {
+    color: #3B5998;
+}
+
+.fa-instagram:hover {
+    color: #f77737;
+}
